@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    height: 100vh;
+    width: 100%;
+    background: wheat;
+}
+.main_div{
+    border: 2px solid wheat;
+    height: 70%;
+    width: 75%;
+    background-color:white;
+    border-radius: 13%;
+    box-shadow: 0 0 10px  black;
+    -moz-box-shadow: 0 0 10px black;
+    -webkit-box-shadow: 0 0 10px  black;
+    -o-box-shadow: 0 0 10px  black; 
+    margin: 20% 10% 8% 10%;
+
+}
+
+.heading{
+    width: 100%;
+    height: 12%;
+    margin: 14% 0% 14% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+ 
+}
+.head{
+    color:  rgb(85, 35, 1);
+
+}
+.input{
+    display: flex;
+    justify-content: center;
+}
+input{
+    text-align: center;
+    height: 30px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    width: 60%;
+    border-bottom: 2px solid rgb(85, 35, 1);
+    outline: none;
+    margin-left: 17%;
+
+}
+.plus{
+    height: 33px;
+    width: 13%;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: rgb(85, 35, 1);
+    color: #fff;
+    font-size: 120%;
+    border: none;
+    outline: none;
+    margin-left: 5%;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+.list{
+    margin: 7% 4%;
+    width: 100%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    overflow-wrap: break-word;
+
+}
+.list img{
+    width: 10%;
+margin-right: 6%;
+}
+.list li{
+    font-size: 116%;
+    font-weight: bolderbold;
+    text-transform: capitalize;
+    min-height: 40%;
+    list-style: none;
+   overflow-wrap: break-word;
+}
+.header{
+    background: burlywood;
+    height: 5%;
+    display: flex;
+    align-items: center;
+}
+.header h1{
+    font-size: 107%;
+    margin: 0;
+    font-family: 'Merienda', cursive;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-right: 22%;
+}
